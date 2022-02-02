@@ -1,177 +1,440 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 header {
-    border-top:3px solid red;
-    margin-top:3px;
-    width: 100%;
-    height: 100px;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    overflow: auto;
-    letter-spacing: 2px;
-
+  border-top: 3px solid red;
+  margin-top: 3px;
+  width: 100%;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: auto;
+  letter-spacing: 2px;
 }
 header h2 {
-    margin-left: 50px;
-    margin-top: 25px;
-    color: #FF9000;
-
-
+  margin-left: 50px;
+  margin-top: 25px;
+  color: #ff9000;
 }
 
 header div {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    text-align: center;
-
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  text-align: center;
 }
 
-header div a {
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    padding-top: 20px;
-    
+header a {
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-top: 20px;
 }
 
-header div a:hover {
-    background-color: #F44336;
+header a:hover {
+  background-color: #f44336;
 }
 
-header div a:link {
-    color: black;
+header a:link {
+  color: black;
 }
-header div a:visited {
-    color: black;
+header a:visited {
+  color: black;
 }
 .bir {
-    background-image: url(./img/2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 36.06rem;
-    display: flex;
-    justify-content: flex-end;
+  background-image: url(./img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 36.06rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .bir_div1 {
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 36.66rem;
-    height: 36.06rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 36.66rem;
+  height: 36.06rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .bir_div2 {
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 36.66rem;
-    height: 10.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 38.8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 36.66rem;
+  height: 10.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 38.8px;
 }
 
 .bir_div2 h1 {
-    font-size: 55px;
-    color: #FF9800;
+  font-size: 55px;
+  color: #ff9800;
 }
 
 .bir_div2 h3 {
-    font-size: 24px;
-    color: white;
-    font-weight: 200;
+  font-size: 24px;
+  color: white;
+  font-weight: 200;
 }
 
 .bir button {
-    margin-top: 30px;
-    width: 19.06rem;
-    height: 2.65rem;
-    color: white;
-    background-color:#F44336 ;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 1px;
-    font-size: 15px;
-    font-weight: 700;
+  margin-top: 30px;
+  width: 19.06rem;
+  height: 2.65rem;
+  color: white;
+  background-color: #f44336;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .bir button:hover {
-    background-color:#ff867d
+  background-color: #ff867d;
 }
 
 main {
-    width: 71.25rem;
-    margin: 30px auto;
+  width: 71.25rem;
+  margin: 30px auto;
 }
 
 .iki {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .iki h2 {
-    line-height: 5rem;
-    color: #F44336;
-    font-size: 2rem;
-    font-weight: 700;
+  line-height: 5rem;
+  color: #f44336;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .iki p {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.üç {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.üç_div {
+  display: flex;
+  flex-direction: row;
+}
+
+.üç_div1 {
+  width: 350px;
+  height: 257px;
+  border: 1px solid rgb(196, 184, 184);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 40px;
+}
+
+.üç_div1:hover {
+  background-color: rgb(255, 242, 242);
+  box-shadow: 2px 2px 5px grey;
+}
+
+.üç_div1 h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.üç_div1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.dört {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dört h2 {
+  margin-bottom: 10px;
+  line-height: 5rem;
+  color: #f44336;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.dört p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.beş {
+  margin-top: 30px;
+  display: flex;
+}
+
+.beş img {
+  width: 33.75rem;
+}
+.beş h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 21.6px;
+}
+
+.beş_div {
+  margin-left: 20px;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.beş_div_1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.beş_div_2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.beş_div ul {
+  list-style-position: inside;
+  list-style-image: url("https://img.icons8.com/wired/20/000000/anonymous-mask.png");
+}
+
+.altı_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.altı_div h2 {
+  margin-bottom: 10px;
+  line-height: 5rem;
+  color: #f44336;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.altı_div p {
+    font-family: "Open Sans", sans-serif;
     text-align: center;
     font-weight: 600;
 }
 
-.üç {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-}
-.üç_div {
+.altı_img {
+    margin-top: 4rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    
 }
 
-.üç_div1 {
-    width: 350px;
-    height: 257px;
-    border: 1px solid rgb(196, 184, 184);
+.altı_img img {
+    width: 9rem;
+    opacity: 0.4;
+}
+.altı_img img:hover {
+    opacity: 1;
+}
+.yedi {
+    background-color: #f44336;
+    border-radius: 10px;
+}
+
+.yedi_div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    text-align: center;
-    line-height: 2.5rem;
-    padding: 40px;
 }
 
-.üç_div1:hover {
-    background-color: rgb(255, 242, 242);
-    box-shadow: 2px 2px 5px grey ;
-}
-
-.üç_div1 h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+.yedi_div h2 {
+    margin-bottom: 10px;
+    line-height: 5rem;
+    color: white;
+    font-size: 2rem;
     font-weight: 700;
 }
-.üç_div1 p {
-    font-family: 'Open Sans', sans-serif;
+.yedi_div p {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 600;
+
+
+}
+.yedi_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.yedi_img img {
+    margin: 10px;
+    width: 21.70rem;
+    height: 14.47rem;
+}
+
+.sekiz_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sekiz_div h2 {
+    margin-bottom: 10px;
+    line-height: 5rem;
+    color: #f44336;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sekiz_div p {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sekiz_div2 {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sekiz_div2 div {
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.sekiz_div2 div div {
+    width: 17.5rem;
+    height: 9.90rem;
+    border: 1px dashed black;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+}
+
+.sekiz_div2 div h4 {
+    margin-top: 5px;
     font-size: 14px;
-    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #999999;
+}
+
+.dokuz_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dokuz_div h2 {
+    margin-bottom: 10px;
+    line-height: 5rem;
+    color: #f44336;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.dokuz_div p {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.dokuz_div2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dokuz_div2 div {
+    width: 21.875rem;
+    height: 31.2875rem;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 2px solid #f44336;
+    box-shadow: 3px 3px 8px ;
+}
+.dokuz_div2 div h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #444444;
+    font-weight: 100;
+}
+
+.dokuz_div2 div p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+}
+
+.dokuz_div2 div li {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+}
+
+.dokuz_div2 div h4 {
+    color: #f44336;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+
+}
+
+.dokuz_div2 div button {
+    width: 18.125rem;
+    height: 2.875rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #ff9800;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #ff9800 ;
+
+}
+
+.dokuz_div2 div button:hover {
+    color: white;
+    background-color: #f44336;
 }
