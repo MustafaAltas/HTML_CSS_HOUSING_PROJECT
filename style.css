@@ -5,6 +5,7 @@
 }
 
 header {
+  background-color: white;
   border-top: 3px solid red;
   margin-top: 3px;
   width: 100%;
@@ -13,8 +14,12 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  overflow: auto;
+  /* overflow: auto; */
   letter-spacing: 2px;
+  position:sticky;
+  top: 0px;
+
+   
 }
 header h2 {
   margin-left: 50px;
@@ -438,3 +443,198 @@ main {
     color: white;
     background-color: #f44336;
 }
+
+.on {
+  height: 14.725rem;
+  background-color: #f44336;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 20px;
+}
+
+.on h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 50px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.on div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.on div p {
+  width: 51.56rem;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-right: 30px;
+
+}
+
+.on div button {
+  width: 10rem;
+  height:2.875rem;
+  background-color: #f44336;
+  border: 2px inset white;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.on div button:hover {
+  background-color: rgb(172, 32, 8);
+  border: none;
+}
+
+.onbir {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.onbir h2 {
+  margin-bottom: 10px;
+  line-height: 5rem;
+  color: #f44336;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.onbir_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  width: 1140px;
+  gap: 20px;
+
+}
+
+.onbir_div_img {
+  width:15.68rem ;
+  height: 14.43rem ;
+}
+
+.onbir_div2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:center;
+  padding: 20px;
+  line-height: 35px;
+  border: 3px inset #f44336;
+
+}
+.onbir_div2 h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+}
+.onbir_div2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+
+}
+
+.onbir_div2 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.oniki {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.oniki h2 {
+  margin-bottom: 10px;
+  line-height: 5rem;
+  color: #f44336;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.oniki p {
+
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+}
+
+.oniki_div {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 1140px;
+  justify-content: space-between;
+}
+.oniki_div2 {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+}
+
+.oniki_div_form {
+  width: 39.68rem;
+
+}
+
+.oniki_div_form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.oniki textarea {
+  width: 605px;
+  height: 247px;
+  resize: none;
+  border: 0.5px solid blue;
+}
+
+#name,#mail {
+  width: 605px;
+  height: 44.5px;
+  border: 0.5px solid blue;
+}
+
+.oniki button {
+  width: 97.3625px;
+  height: 44px;
+  float: right;
+  background-color: #ff9800;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #302D28;
+  height: 108.7px;
+  gap: 10px;
+}
+
